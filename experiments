@@ -1,0 +1,94 @@
+const timesToRepeat = 40
+const character = "🐩"
+
+//some loop that takes that character and repeat it
+
+let word=" "
+for (let i=0; i<timesToRepeat;i++){
+    word= word+character
+}console.log(word);
+
+
+const firstName ="Youssef";
+const LastName = "Kouliana";
+
+console.log(`Hello ${firstName} ${LastName} How are you today!?`);
+
+const PeopleInStadium= 100
+if (PeopleInStadium<30){
+    console.log("low attendance")
+} else if (PeopleInStadium === 50){
+    console.log("its okej")
+} else {console.log("perfekt");
+}
+
+function x(number){
+    return number + 10
+}
+const finalNumber= x(6)
+console.log(finalNumber)
+
+
+function sum(x,z){
+    return x+z
+} const result = sum(2,10)
+console.log(result)
+
+const anotheranswer= church(10)
+console.log(anotheranswer)
+
+function people(amount){
+    return amount + 10
+}
+const amountofpeople = people(6)
+console.log(amountofpeople)
+
+let string = "Hi my name is Youssef";
+console.log(string)
+string= string.substring(3)
+console.log(string)
+
+let number = (3.6)
+const roundedNumber = Math.round(number)
+console.log(roundedNumber)
+
+
+const stringToLookFor = "Youssef"
+console.log(string.includes(stringToLookFor));
+
+
+const person ={
+    name: "Youssef Kouliana",
+    city: "Stockholm",
+    Age: 33,
+    country: "Swedem",
+    favoritFood: "Pizza",
+    wantsTacosRightNow: false,
+    wantsPizzaRightNow: true,
+    NumberOfPizzawanted: 100,
+}
+console.log(person);
+console.log(person.name);
+console.log(person.wantsTacosRightNow)
+
+
+const person1 = {
+    name: "Anthony Martial",
+    ageRange: "25-35"
+}
+
+const person2 = {
+    name: "Franseca",
+    ageRange: "65-75",
+}
+
+function SuggestGoodMusic(person){
+    if (person.ageRange === "25-35"){
+        console.log("we think you will like Jazz musik")
+    } else if (person.ageRange === "65-75") {
+        console.log("Johny cash is a good option")
+    } else { console.log("Justin Bieber is the best")
+}
+}
+SuggestGoodMusic(person1)
+SuggestGoodMusic(person2)
