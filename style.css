@@ -1,0 +1,29 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  label, .interests, .number {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  
+  .button {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: lightblue;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .playlist-suggestion {
+    padding: 1rem;
+    font-size: 1.2rem;
+  }
+  

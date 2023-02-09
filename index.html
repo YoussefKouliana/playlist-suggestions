@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Music playList suggestions</title>
+</head>
+<body>
+    <h1>Music Playlist Suggestion App</h1>
+    <p>Enter your age and interests to get a playlist suggestion:</p>
+    <form class="form">
+      <label for="age">Age:</label>
+      <input type="number" class="number" id="age" name="age" required>
+      <br><br>
+      <label for="interests">Your favorite music genre:</label>
+      <input type="text" class="interests" name="interests" required>
+      <br><br>
+      <button class="button" type="submit">Get Playlist</button>
+    </form>
+    <br>
+    <div class="playlist-suggestion"></div>
+    <script src="action.js"></script>
+</body>
+</html>
